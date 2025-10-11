@@ -3,7 +3,7 @@
     padding: 0;
 }
 body{
-    background-color: #023e8a;
+    background-color: #3A5A9E;
 }
 
 .outer{
@@ -26,15 +26,16 @@ input{
     box-shadow: 0 0 0.9rem black;
 }
 #container{
-    background-color:#48cae4;
+    background-color:#F7F9FA;
     height: 60vh;
     width: 500px;
     border-radius: 5%;
-    box-shadow: 0 0 2rem rgb(29, 29, 29);
+    box-shadow: 0 0 1rem #CED4DA;
 }
 h1{
     margin-bottom: 40px;
     margin-top: 40px ;
+    color: #333333;
     text-shadow: 0 0 0.5rem rgb(97, 95, 95);
 }
 button{
@@ -43,13 +44,14 @@ button{
     text-decoration: underline;
     font-size: large;
     margin-top: 20px;
-    background-color:#27a8d3 ;
+    background-color: #3A5A9E ;
 }
 #links{
     margin-top: 20px;
 }
 a{
     text-decoration: none;
+    color: #00A896;
 }
 #a1{
     margin-right: 260px;
