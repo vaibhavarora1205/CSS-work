@@ -74,3 +74,21 @@ input{
 .search :hover{
     border: 1px solid #696e79;
 }
+/* Main Section */
+.banner-container img{
+    margin-top: 40px;
+    width: 100vw;
+}
+.category-heading{
+    text-transform: uppercase;
+    color: #3e4152;
+    font-size: 1.8em;
+    margin: 50px 0 10px 30px;
+    font-weight: 700;
+    max-height: 5em;
+}
+.category-items{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
