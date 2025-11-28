@@ -12,11 +12,6 @@ header{
     align-items: center;
     justify-content: space-around;
 }
-a{
-    margin: 10px;
-    text-decoration: none;
-    color: black;
-}
 .categories{
     display: flex;
     
@@ -27,6 +22,9 @@ a{
     text-transform: uppercase;
     font-weight: 700;
     border: 3px solid #f5f5f6;
+    margin: 10px;
+    text-decoration: none;
+    color: black;
 }
 .categories sup{
     color: #ff3f6c;
@@ -91,4 +89,32 @@ input{
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
+}
+/* Footer Start */
+.footer-container{
+    padding: 30px 0px 40px 0px;
+    background-color: #FAFBFC;
+    display: flex;
+    justify-content: space-evenly;
+}
+.footer-column{
+    display: flex;
+    flex-direction: column;
+}
+.footer-column a{
+    text-transform: uppercase;
+    color: #696e79;
+    text-decoration: none;
+    padding-bottom: 5px;
+    font-size: 15px;
+}
+.footer-column h3{
+    text-transform: uppercase;
+    color: #282c3f;
+    font-size: 14px;
+    margin-bottom: 25px;
+}
+.copyright{
+    text-align: center;
+    padding: 10px;
 }
